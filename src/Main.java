@@ -57,12 +57,5 @@ class Main {
             System.out.println("Original Decimal (Base 10) Number: " + nc.displayOriginalNumber());
             System.out.println("Base " + base + ": " + nc.convert10ToAnyBase(base));
         }
-
-//        System.out.println("\n\nDigit array: " + Arrays.toString(digits));
-//        System.out.println("Number: " + nc.displayOriginalNumber());
-//        System.out.println("Binary: " + nc.convertToBinary());
-//        System.out.println("Octal: " + nc.convertToOctal());
-//        System.out.println("Hexa: " + nc.convertToHexadecimal());
-//        System.out.println("Choice: " + nc.convert10ToAnyBase(60));
     }
 }
