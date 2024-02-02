@@ -45,14 +45,14 @@ class Main {
             System.out.println("Octal: " + nc.convertToOctal());
             System.out.println("Hexadecimal: " + nc.convertToHexadecimal());
         }
-        else if (base == 16){
+        else if (base == 16){ //can go from other bases to 16 but not 16 to other bases (NumberFormatException when parsing)
             System.out.println("--------------------------------");
             System.out.println("Original Number: " + nc.displayOriginalNumber());
             System.out.println("Binary: " + nc.convertToBinary());
             System.out.println("Decimal: " + nc.convertToDecimal(16));
             System.out.println("Octal: " + nc.convertToOctal());
         }
-        else{
+        else{ //probably similar situation
             System.out.println("--------------------------------");
             System.out.println("Original Decimal (Base 10) Number: " + nc.displayOriginalNumber());
             System.out.println("Base " + base + ": " + nc.convert10ToAnyBase(base));
